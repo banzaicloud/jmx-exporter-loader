@@ -7,5 +7,5 @@ The loader expects the following cofiucuration passed as system properties:
 
 * **pid** - pid of the java process to inject prometheus java agent into
 * **prometheus.javaagent.path** - path to the prometheus java agent jar
-* **prometheus.javaagent.configPath** - path to the config file of prometheus java agent (example [comnfig file](https://github.com/prometheus/jmx_exporter#configuration))
+* **prometheus.javaagent.configPath** - path to the config file of prometheus java agent (example [config file](https://github.com/prometheus/jmx_exporter#configuration))
 * **prometheus.port** - the port metrics can be scraped from
